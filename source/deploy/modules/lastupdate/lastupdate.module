@@ -1,0 +1,8 @@
+<?php 
+function lastupdate_node_view($node){
+
+	print("Last modified date: " . format_date($node->changed, $type = 'small')); 
+
+}
+
+?>
